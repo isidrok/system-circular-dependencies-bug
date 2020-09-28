@@ -19,7 +19,6 @@ console.log(b);
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = "C";
-exports.name = "c";
 });
 
 export { createCommonjsModule as a, c };

@@ -5,7 +5,6 @@ console.log(c);
 
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = "B";
-exports.name = "b";
 });
 
 export { b };

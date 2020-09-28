@@ -1,10 +1,5 @@
-import { c } from './c.js';
-import { b } from './b.js';
-
-console.log(c);
-
-
-console.log(b);
+import './c.js';
+import './b.js';
 
 var a = {
 

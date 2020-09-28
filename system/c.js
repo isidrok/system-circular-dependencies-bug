@@ -28,7 +28,6 @@ System.register(['./b.js'], function (exports) {
 
 			Object.defineProperty(exports, "__esModule", { value: true });
 			exports.default = "C";
-			exports.name = "c";
 			}));
 
 		}
