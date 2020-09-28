@@ -1,14 +1,22 @@
-System.register(['./react.js', './core-js.js'], function () {
+System.register(['./c.js', './b.js'], function (exports) {
 	'use strict';
-	var reactDom, react;
+	var c, b;
 	return {
 		setters: [function (module) {
-			reactDom = module.r;
-			react = module.b;
-		}, function () {}],
+			c = module.c;
+		}, function (module) {
+			b = module.b;
+		}],
 		execute: function () {
 
-			reactDom.render( /*#__PURE__*/react.createElement("div", null, "A"), document.getElementById('a'));
+			console.log(c);
+
+
+			console.log(b);
+
+			var a = exports('default', {
+
+			});
 
 		}
 	};

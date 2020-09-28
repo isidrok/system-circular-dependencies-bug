@@ -1,4 +1,13 @@
-import { r as reactDom, b as react } from './react.js';
-import './core-js.js';
+import { c } from './c.js';
+import { b } from './b.js';
 
-reactDom.render( /*#__PURE__*/react.createElement("div", null, "A"), document.getElementById('a'));
+console.log(c);
+
+
+console.log(b);
+
+var a = {
+
+};
+
+export default a;

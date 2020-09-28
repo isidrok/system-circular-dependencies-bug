@@ -1,4 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+const c = require('./c.js');
+console.log(c);
 
-ReactDOM.render(<div>A</div>, document.getElementById('a'))
+const b = require('./b.js');
+console.log(b);
