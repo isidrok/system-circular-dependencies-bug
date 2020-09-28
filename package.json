@@ -1,0 +1,28 @@
+{
+  "name": "system-circular-dependencies-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "core-js": "^3.6.5",
+    "http-server": "^0.12.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.28.2",
+    "systemjs": "^6.6.1"
+  }
+}
