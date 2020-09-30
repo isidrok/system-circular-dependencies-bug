@@ -19,6 +19,5 @@ export default {
         if(id.endsWith('c.js')){return 'c'}
     },
     plugins: [
-        cjs(),
     ]
 }

@@ -1,10 +1,12 @@
-import { c, a as createCommonjsModule } from './c.js';
+import { c } from './c.js';
 
-var b = createCommonjsModule(function (module, exports) {
-console.log(c);
+console.log("C", c);
 
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = "B";
+var b = "B";
+
+var b$1 = /*#__PURE__*/Object.freeze({
+	__proto__: null,
+	'default': b
 });
 
-export { b };
+export { b$1 as b };

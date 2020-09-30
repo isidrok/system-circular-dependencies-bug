@@ -1,2 +1,2 @@
-require('./c.js');
-require('./b.js');
+import './c.js'
+import './b.js'

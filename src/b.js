@@ -1,5 +1,5 @@
-const c = require('./c.js');
-console.log(c)
+import * as c from './c.js'
 
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = "B";
+console.log("C", c)
+
+export default "B";

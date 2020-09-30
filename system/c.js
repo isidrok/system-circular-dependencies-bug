@@ -7,28 +7,15 @@ System.register(['./b.js'], function (exports) {
 		}],
 		execute: function () {
 
-			exports('a', createCommonjsModule);
+			var c$1 = /*#__PURE__*/Object.freeze({
+				__proto__: null,
+				get default () { return c; }
+			});
+			exports('c', c$1);
 
-			function createCommonjsModule(fn, basedir, module) {
-				return module = {
-					path: basedir,
-					exports: {},
-					require: function (path, base) {
-						return commonjsRequire(path, (base === undefined || base === null) ? module.path : base);
-					}
-				}, fn(module, module.exports), module.exports;
-			}
+			console.log("B", b);
 
-			function commonjsRequire () {
-				throw new Error('Dynamic requires are not currently supported by @rollup/plugin-commonjs');
-			}
-
-			var c = exports('c', createCommonjsModule(function (module, exports) {
-			console.log(b);
-
-			Object.defineProperty(exports, "__esModule", { value: true });
-			exports.default = "C";
-			}));
+			var c = "C";
 
 		}
 	};

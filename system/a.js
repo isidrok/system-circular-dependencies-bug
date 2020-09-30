@@ -1,12 +1,10 @@
-System.register(['./c.js', './b.js'], function (exports) {
+System.register(['./b.js', './c.js'], function () {
 	'use strict';
 	return {
 		setters: [function () {}, function () {}],
 		execute: function () {
 
-			var a = exports('default', {
 
-			});
 
 		}
 	};
